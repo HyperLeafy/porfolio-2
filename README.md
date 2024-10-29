@@ -1,19 +1,24 @@
-## MERN Portfolio Application
+# MERN Portfolio Application
 
 A modern portfolio application built with the MERN stack (MongoDB, Express.js, React, Node.js). This application showcases my work, projects, and skills, and serves as a demonstration of my abilities with full-stack development.
-Features
 
-    Responsive Design: Mobile-friendly layout for a seamless experience on any device.
-    Dynamic Content: Showcase projects, skills, and contact information.  
+## Features
 
-Tech Stack
+- Responsive Design: Mobile-friendly layout for a seamless experience on any device.
+- Dynamic Content: Showcase projects, skills, and contact information.  
 
-    Frontend: React, React Router, Bootstrap/Tailwind CSS
-    Backend: Node.js, Express.js
-    Database: MongoDB
+## Tech Stack
 
-License
+- Frontend: React, React Router, Bootstrap/Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB
+
+## Project Overview
+
+A working portfolio project with particle effect as the main focus.
+
+## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
-Contact
+## Contact
 For questions or feedback, please reach out to lilesh3016@gmail.com
