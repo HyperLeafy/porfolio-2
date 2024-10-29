@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    color: white;
+}
+
+.contact{
+    max-width: 600px;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55vh;
+    margin-top: 25vh;
+    background-color: #1D2435;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid salmon;
+    padding: 10px;
+}
+
+.contact form label{
+    padding: 25px;
+    padding-top: 20px;
+    border: 2px solid #3a4152;
+}
+
+#submit_button {
+    max-width: 100px;
+    border: 2px solid salmon;
+    color: white;
+    background-color: #1D2435;
+}

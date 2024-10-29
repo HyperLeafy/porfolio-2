@@ -1,0 +1,11 @@
+html{
+    font-size: 62.5%;
+    margin: none;
+}
+
+body{
+    background-color: #ffd700;
+    background: #022c43;
+    overflow: hidden;
+    display: block  ;
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Rambla';
+    src: url('../../fonts/Rambla-Regular.ttf');
+    /* Add additional font styles or weights if needed */
+  }
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+  
+
+/* navbar.css */
+
+.navbar {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #27272b;/* #2d2f35; */
+    color: #DAE0E1;
+}
+
+.logo {
+    font-family: 'Rationale';
+    font-size: 26px;
+    font-weight: 200;
+    padding-left: 40px;
+
+}
+
+.logo span {
+    color: #c4eff7;
+    text-decoration: none;
+}
+
+a{
+    color: #DAE0E1;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    font-family: 'Rationale';
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: 26px;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav a:hover{
+    color: #c4eff7;
+}
+

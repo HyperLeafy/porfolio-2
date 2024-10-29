@@ -1,0 +1,11 @@
+@import 'animate.css';
+
+@font-face {
+    font-family: 'Rational';
+    src: url('./fonts/Rationale-Regular.ttf') format('ttf');
+}
+
+body{
+    background-color: #ffd700;
+}
+

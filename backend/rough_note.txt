@@ -1,0 +1,34 @@
+ const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const emailBody = `
+            From: ${formData.name}<br/>
+            Email: ${formData.email}<br/>
+            Subject: ${formData.subject}<br/>
+            Message: ${formData.message}
+        `;
+
+        try {
+            await window.Email.send({
+                SecureToken: "5fdd82af-2199-488d-88e5-40f843b291eb", // Use your own secure token here
+                To: 'your_email@example.com', // Replace with your email address
+                From: formData.email,
+                Subject: formData.subject,
+                Body: emailBody,
+            });
+
+            setStatus('Message sent successfully!');
+            setFormData({
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            });
+        } catch (error) {
+            console.error('Error:', error);
+            setStatus('Failed to send message. Please try again.');
+        }
+
+
+97EA36500EE3665B3366B318CD
+80AEBF298F0A869E5C1E2829FB83AC017B08

@@ -1,0 +1,23 @@
+/* ScrollCardPanel.css */
+
+.scroll-card-panel {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  .card {
+    width: 200px;
+    height: 65vh;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card h3{
+    height: 40%;
+    display: grid;
+    place-content: center;
+}

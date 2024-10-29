@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    position: relative;
+}
+
+/* .main-body{
+    background-color: aqua;
+    width: 953px;
+} */
+
+.nav{
+    position: relative;
+    z-index: 11;
+}

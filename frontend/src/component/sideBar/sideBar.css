@@ -1,0 +1,80 @@
+body{
+  margin: none;
+}
+/* Sidebar Styles */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    height: 574px;
+    padding: 20px;
+    /* background-color: #1D2435; */
+    color: white;
+    margin: 0;
+    align-items: center;
+    border: 2px solid cornflowerblue;
+  }
+
+.hamburger {
+    display: none; /* Initially hide the hamburger on larger screens */
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+/* sidebar logo style  */
+.sidebar .logo{
+  font-family: 'Rational';
+  font-size: 1.12em;
+  color: rgb(203, 240, 240);
+}
+
+.sidebar .logo:hover{
+  color: #87c1d4 ;
+}
+
+/* sidebar nav panel style */
+  .sidebar .nav {
+    margin-top:7.5vh;
+    margin-bottom: 8vh;
+  }
+  
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    list-style: none;
+    padding: 0px;
+    justify-content: center;;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sidebar a:hover {
+    color: #87c1d4;
+    /* color: #9CDFA4; Highlight text color on hover */
+  }
+
+/* sidebar social panel style */
+.sidebar .social{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.sidebar .social .icon{
+  padding: 10px;
+}
+
+.sidebar .social .icon:hover{
+  color: #87c1d4;
+  /* color:#9CDFA4; */
+  scale: 1.2;
+}
